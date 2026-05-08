@@ -38,7 +38,7 @@ class Carga extends Phaser.Scene {
         this.load.image("base","Base.png");
         this.load.image("plat","plataforma.png");
         this.load.image("meta","Meta.png");
-        this.load.audio("musicaFondo","highscore.wav");
+        this.load.audio("musicaFondo","highscore.mp3");
 
         this.load.image("fondo_inicio","fondete.jpg");
 
