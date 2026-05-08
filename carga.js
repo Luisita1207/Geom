@@ -31,20 +31,20 @@ class Carga extends Phaser.Scene {
         });
 
         // Assets del juego
-        this.load.image("fondo", "fondo.jpg");
-        this.load.image("cubo", "cubo.jpg");
-        this.load.image("spike", "spike.png");
-        this.load.image("suelo", "suelo.jpg");
-        this.load.image("base", "Base.png");
-        this.load.image("plat", "plataforma.png");
-        this.load.image("meta", "Meta.png");
-        this.load.audio("musicaFondo", "highscore.wav");
+        this.load.image("fondo","fondo.jpg");
+        this.load.image("cubo","cubo.jpg");
+        this.load.image("spike","spike.png");
+        this.load.image("suelo","suelo.jpg");
+        this.load.image("base","Base.png");
+        this.load.image("plat","plataforma.png");
+        this.load.image("meta","Meta.png");
+        this.load.audio("musicaFondo","highscore.wav");
 
-        this.load.image("fondo_inicio", "assets/fondete.jpg");
+        this.load.image("fondo_inicio","fondete.jpg");
 
         // Simular carga
         for(let i = 0; i < 30; i++){
-            this.load.image("fake" + i, "assets/cubo.jpg");
+            this.load.image("fake" + i, "cubo.jpg");
         }
         // Nos ayuda a que la barra no carga instantaneamente
         // Nos da mas tiempo de mostrar animaciones/logo
