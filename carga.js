@@ -31,14 +31,14 @@ class Carga extends Phaser.Scene {
         });
 
         // Assets del juego
-        this.load.image("fondo", "assets/fondo.jpg");
-        this.load.image("cubo", "assets/cubo.jpg");
-        this.load.image("spike", "assets/spike.png");
-        this.load.image("suelo", "assets/suelo.jpg");
-        this.load.image("base", "assets/Base.png");
-        this.load.image("plat", "assets/plataforma.png");
-        this.load.image("meta", "assets/Meta.png");
-        this.load.audio("musicaFondo", "assets/highscore.wav");
+        this.load.image("fondo", "fondo.jpg");
+        this.load.image("cubo", "cubo.jpg");
+        this.load.image("spike", "spike.png");
+        this.load.image("suelo", "suelo.jpg");
+        this.load.image("base", "Base.png");
+        this.load.image("plat", "plataforma.png");
+        this.load.image("meta", "Meta.png");
+        this.load.audio("musicaFondo", "highscore.wav");
 
         this.load.image("fondo_inicio", "assets/fondete.jpg");
 
